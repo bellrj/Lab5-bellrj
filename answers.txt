@@ -1,0 +1,8 @@
+Ryne Bell
+CM 438
+CSSE 376
+Lab 5
+
+1. Test Driven Development is the process of creating the tests for code before you write the code to pass the test. It also entails only writing enough code to pass each test after you write it, and refactoring code to make it cleaner as you progress (running the tests after each refactoring to prevent removing funtionality).
+
+2. Yes, I agree with these claims. Test driven development forces you to write tests for all sections of your code, and writing the tests first requires you to think ahead about what cases there are, and what needs to be tested while the actual implementation is fresh on your mind. It also ensures that there are plenty of tests to ensure changes made later don't break something unintentionally which increases confidence and prevents bugs.
