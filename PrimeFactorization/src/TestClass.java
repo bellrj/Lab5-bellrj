@@ -1,13 +1,25 @@
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+
+import junit.framework.TestCase;
+
 import org.junit.Test;
 
 
-public class TestClass {
+public class TestClass  extends TestCase{
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testOne() {
+		assertEquals(list(),PrimeFactorization.getPrimeFactors(1));
+	}
+	
+	public ArrayList<Integer> list(int... ints){
+		ArrayList ret = new ArrayList<Integer>();
+		for(int i : ints){
+			ret.add(i);
+		}
+		return ret;
 	}
 
 }
