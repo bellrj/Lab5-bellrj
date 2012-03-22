@@ -19,6 +19,11 @@ public class TestClass  extends TestCase{
 		assertEquals(list(2), PrimeFactorization.getPrimeFactors(2));
 	}
 	
+	@Test
+	public void testThree(){
+		assertEquals(list(3), PrimeFactorization.getPrimeFactors(3));
+	}
+	
 	public ArrayList<Integer> list(int... ints){
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		for(int i : ints){
