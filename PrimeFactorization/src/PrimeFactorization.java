@@ -8,14 +8,13 @@ public class PrimeFactorization{
 	public static ArrayList<Integer> getPrimeFactors(int n){
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		
-		while(n%2 == 0)
+		for(int num = 2; n > 1;num++)
 		{
-			list.add(2);
-			n /= 2;
-		}
-		if(n > 1)
-		{
-			list.add(n);
+			while(n%num == 0)
+			{
+				list.add(num);
+				n /= num;
+			}
 		}
 		return list;
 	}
