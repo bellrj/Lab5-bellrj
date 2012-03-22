@@ -19,4 +19,8 @@ public class PrimeFactorization{
 		return list;
 	}
 
+	public static ArrayList<Integer> getLesserPrimes(int i) {
+		return new ArrayList<Integer>();
+	}
+
 }
