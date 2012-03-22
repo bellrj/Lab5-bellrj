@@ -21,8 +21,9 @@ public class PrimeFactorization{
 
 	public static ArrayList<Integer> getLesserPrimes(int i) {
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		if(i>=3){
-			list.add(2);
+		
+		for(int j=2;j<i;j++){
+			list.add(j);
 		}
 		return list;
 	}
