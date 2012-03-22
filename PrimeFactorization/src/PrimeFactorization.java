@@ -7,9 +7,9 @@ public class PrimeFactorization{
 	
 	public static ArrayList<Integer> getPrimeFactors(int n){
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		if(n == 2)
+		if(n > 1)
 		{
-			list.add(2);
+			list.add(n);
 		}
 		return list;
 	}
