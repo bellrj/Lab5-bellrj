@@ -15,11 +15,10 @@ public class TestClass  extends TestCase{
 	}
 	
 	public ArrayList<Integer> list(int... ints){
-		ArrayList ret = new ArrayList<Integer>();
+		ArrayList<Integer> ret = new ArrayList<Integer>();
 		for(int i : ints){
 			ret.add(i);
 		}
 		return ret;
 	}
-
 }
