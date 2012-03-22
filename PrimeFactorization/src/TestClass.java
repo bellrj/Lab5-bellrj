@@ -77,6 +77,10 @@ public class TestClass  extends TestCase{
 		assertEquals(list(2,3), PrimeFactorization.getLesserPrimes(4));
 	}
 	
+	@Test
+	public void testGetLesserThan5(){
+		assertEquals(list(2,3), PrimeFactorization.getLesserPrimes(5));
+	}
 	
 	
 }
