@@ -62,5 +62,10 @@ public class TestClass  extends TestCase{
 		assertEquals(list(), PrimeFactorization.getLesserPrimes(1));
 	}
 	
+	@Test
+	public void testGetLesserThan2(){
+		assertEquals(list(), PrimeFactorization.getLesserPrimes(2));
+	}
+	
 	
 }
